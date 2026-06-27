@@ -1,0 +1,740 @@
+/* CSS Code Credits: Katie [#106445], Pandora [#144118] & Kat [#94329], Tawny [#251887], Hok-Z [#41458], Felid [#114852] */
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Newsreader:opsz@6..72&family=Sancreek&display=swap');
+body {
+	background: url('https://file.garden/abCIqWhSLFoLY_N2/Untitled%20design%20(17).png') center center fixed;
+	background-size: 100%;
+	font-family: "Newsreader", serif;
+	color: #DFBCAA
+}
+@media screen and (max-width: 600px){
+body {
+	background: url('https://file.garden/abCIqWhSLFoLY_N2/Untitled%20design%20(17).png') center center fixed;
+	background-size: cover;
+	font-family: "Newsreader", serif;
+	color: #DFBCAA;}
+}
+.container.main {
+	background: linear-gradient(to right, rgba(59, 32, 17,0.75), rgba(96,63,44,0.75), rgba(84, 51, 33, 0.75), rgba(38, 24, 12, 0.75));
+	border: none;
+    box-shadow: 0px 0px 10px #7E4425 !important;
+	border-radius: 5px 5px 5px 5px
+}
+.col-md-9 {
+	background: none;
+        border-right: none
+}
+.topbar {
+    background: url("https://iili.io/f03hhu4.md.png") repeat center center, linear-gradient(to right, #5B311A, #3B2011, #7E4425, #3B2011, #5B311A); !important;
+	border: none;
+	border-top: none;
+	color: #ccb18b;
+	border-radius: 0px 0px 5px 5px;
+    box-shadow: 0 0 5px #7E4425 !important;
+}
+.welcomeback::after {
+        content: "「 CSS by Stella [#185560] 」";
+        color: #ccb18b;
+	    font-size: 13px;
+        position: absolute;
+        left: 30%;
+        z-index: 100
+}
+.navbar {
+    background: url("https://iili.io/f03hhu4.md.png") repeat center center, linear-gradient(to right, #5B311A, #3B2011, #7E4425, #3B2011, #5B311A); !important;
+	border-bottom: 2px solid rgba(59, 32, 17,0.85);
+    border-top: 2px solid rgba(91, 49, 26,0.85);
+    font-family: "Sancreek", serif;
+	color: #d0a37d;
+	border-radius: 5px 5px 0px 0px;
+    box-shadow: none !important;
+}
+.navbar li a {
+	color: #a87d58 !important
+}
+.navbar li a:hover {
+	background: rgba(227, 177, 84,0) !important;
+	border-bottom: none;
+	color: #be8b54 !important;
+	border-radius: 0px;
+    transform: scale(1.1);
+	border-radius: 0px;
+    transition: 0.5s;
+    filter: drop-shadow(2px 5px 5px #381913);
+}
+.breadcrumb {
+	background: #8C5E43 !important;
+    box-shadow: none !important;
+	border: solid 1.5px #6E4A35 !important;
+	border-radius: 5px
+}
+.breadcrumb .active {
+	color: #D9BFB0
+}
+.breadcrumb::after {
+        content: "𝘣𝘦 𝘭𝘰𝘺𝘢𝘭 𝘵𝘰 𝘸𝘩𝘢𝘵 𝘮𝘢𝘵𝘵𝘦𝘳𝘴";
+        color: #d9bfb0;
+	    font-size: 13px;
+        position: absolute;
+        right: 16%;
+        z-index: 100
+    }
+input.floatright {
+    background: rgba(1,1,1,0) !important;
+    border: none !important;
+    color: #DFBCAA !important;
+    border-radius: 0px;
+    transition: 
+        transform 0.5s,
+        color 0.5s, 
+        filter 0.5s, 
+        border-radius 0.5s
+}
+input.floatright:hover {
+    background: rgba(1,1,1,0) !important;
+    border: none !important;
+    color: #DFBCAA !important; 
+    filter: brightness(100%) opacity(90%);
+    transform: scale(1.1);
+    border-radius: 20px;
+}
+button.button {
+    background: url("https://iili.io/f03hhu4.md.png") repeat center center, linear-gradient(to right, #5B311A, #3B2011, #7E4425, #3B2011, #5B311A) !important;
+    border: none !important;
+    color: #DFBCAA !important;
+    border-radius: 5px;
+    filter: drop-shadow(2px 3px 3px #2b1b18);
+}
+button.button:hover {
+    background: url("https://iili.io/f03hhu4.md.png") repeat center center, linear-gradient(to right, #5B311A, #3B2011, #7E4425, #3B2011, #5B311A) !important;
+    border: none !important;
+    color: #DFBCAA !important;
+    filter: brightness(100%) opacity(90%);
+    transform: scale(1.1);
+    border-radius: 5px;
+    filter: drop-shadow(2px 3px 3px #2b1b18);
+    transition: 
+        transform 0.6s,
+        color 0.5s, 
+        filter 0.6s,
+        border 0.5s
+}
+a.btn.btn-default.button {
+    background: url("https://iili.io/f03hhu4.md.png") repeat center center, linear-gradient(to right, #5B311A, #3B2011, #7E4425, #3B2011, #5B311A) !important;
+    border: none !important;
+    color: #DFBCAA !important;
+    border-radius: 5px;
+    filter: drop-shadow(2px 3px 3px #2b1b18);
+    transition: 
+        transform 0.5s,
+        color 0.5s, 
+        filter 0.5s, 
+        border-radius 0.5s
+}
+a.btn.btn-default.button:hover {
+    background: url("https://iili.io/f03hhu4.md.png") repeat center center, linear-gradient(to right, #5B311A, #3B2011, #7E4425, #3B2011, #5B311A) !important;
+    border: none !important;
+    color: #DCBFAA !important;
+    filter: brightness(100%) opacity(90%);
+    transform: scale(1.1);
+    border-radius: 5px;
+    filter: drop-shadow(2px 3px 3px #2b1b18);
+    transition: 
+        transform 0.6s,
+        color 0.5s, 
+        filter 0.6s,
+        border 0.5s
+}
+.alert,
+.alert-warning,
+.alert-danger {
+	background: #4b2d1e !important;
+	border: 1px solid #3d2418 !important;
+    filter: drop-shadow(1px 1px 1px #3d2418);
+	color: #DFBCAA;
+	border-radius: 5px !important
+}
+h1 {
+    font-size: 0px;
+    color: #382114 !important;
+    text-align: center;
+    font-family: "Sancreek", serif;
+    background-image: url('https://file.garden/abCIqWhSLFoLY_N2/2edaa1d83218baf719d8bf5a2db31630.png');
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 120px 0;
+    margin: -80px;
+}
+h2 {
+	color: #d3c392;
+	font-size: 26px;
+	text-align: center
+    filter: drop-shadow(2px 2px 3px #61462e);
+    font-family: "Sancreek", serif;
+}
+h4 {
+	color: #61462e;
+	font-size: 24px;
+	text-align: center !important;
+    filter: drop-shadow(0px 0px 2px #997450);
+    font-family: "Cinzel", serif;
+}
+h5 {
+	color: #d3c392;
+	font-size: 16px;
+	text-align: center !important;
+    filter: drop-shadow(2px 2px 3px #61462e);
+    font-family: "Cinzel", serif;
+}
+.sidebar h3 {
+	background: #d3c392;
+    background-clip: text;
+    color: transparent;
+    font-size: 30px;
+    text-align: center;
+    filter: drop-shadow(2px 2px 3px #61462e);
+    font-family: "Sancreek", serif;
+    transition:
+        transform 0.6s ease,
+        filter 0.6s ease;
+}
+.sidebar h3:hover {
+    transform: scale(1.1);
+    filter: brightness(100%) opacity(90%)
+    drop-shadow(2px 5px 5px #271916);
+}
+h3 a {
+  position: relative;
+  top: -25px;
+  left: -90px;
+  z-index: 100
+}
+.panel {
+    background: url("https://iili.io/f03hhu4.md.png") repeat center center, linear-gradient(to right, #5B311A, #3B2011, #7E4425, #3B2011, #5B311A) !important;
+    box-shadow: 2px 2px 8px #271916 !important;
+    border: solid 1.5px #3e2723 !important;
+	color: #DFBCAA !important;
+	border-radius: 5px
+}
+div.panel-body.small img {
+    filter: drop-shadow(0px 0px 5px #271916);}
+form > div.panel.panel-default > div.panel-body.small.center {
+	text-align: center;
+}
+div.panel.panel-default > div.panel-body.small.center {
+	text-align: left;
+}
+div.panel.panel-default > div.panel-body.small.center > a img {
+	filter: opacity(80%);
+}
+.progress {
+	background: linear-gradient(rgb(245,222,199), #bb987a);
+	color: #f2e7d5 !important;
+	border-radius: 5px 5px 5px 5px !important
+}
+.progress-bar {
+	background: linear-gradient(to left, #794b2e, #9b6542, #b77c58);
+	border-radius: 5px !important
+}
+.progress div {
+	color: #2a1307 !important
+}
+.table {
+    background: url("https://iili.io/f03hhu4.md.png") repeat center center, linear-gradient(to right, #5B311A, #3B2011, #7E4425, #3B2011, #5B311A); !important;
+	border: none !important;
+	border-collapse: separate;
+	border-radius: 10px
+}
+.top,
+th {
+    background: url("https://file.garden/abCIqWhSLFoLY_N2/Untitled%20design%20(26).png") repeat center center; !important;
+	color: #e2d1a9 !important;
+    box-shadow: none !important;
+	border-radius: 5px 5px 0px 0px
+}
+.bottom,
+th {
+	background: #472a1b !important;
+	color: #dbcfaa !important;
+    box-shadow: none !important;
+	border-radius: 0px 0px 5px 5px
+}
+td.bottom a {
+        text-decoration: none !important
+}
+#player > tbody > tr:nth-child(1) > td > small{
+font-size: 0px
+}
+#player > tbody > tr:nth-child(1) > td > small::after {
+content: "𝘳𝘦𝘷𝘦𝘯𝘨𝘦 𝘪𝘴 𝘢 𝘧𝘰𝘰𝘭'𝘴 𝘨𝘢𝘮𝘦";
+font-size: 13px !important;
+color: #e2d1a9 !important;
+}
+.table a:link,
+.table a:visited {
+	color: #e8d0b6 !important;
+	transition: 0.8s;
+}
+.table a:hover {
+	color: #e2a85f !important;
+	transition: 0.8s;
+}
+.inner-table .left {
+	background: #7e5c3d !important;
+        color: #4f3421;
+	border-radius: 5px 0px 0px 5px !important
+}
+.inner-table .right {
+	background: #a48869;
+        color: #3a2c1d;
+	border-radius: 0px 5px 5px 0px !important
+}
+td.right {
+	border-radius: 0px !important
+}
+.right_odd {
+	background: none !important
+}
+.cave-grid,
+.mound-grid {
+    background: url("https://iili.io/f03hhu4.md.png") repeat center center, linear-gradient(to right, #5B311A, #3B2011, #7E4425, #3B2011, #5B311A); !important;
+	border: solid 1px #623925 !important;
+	border-radius:5px !important
+    filter: drop-shadow(2px 3px 3px #623925);
+    transition: 
+        transform 0.9s,
+        color 0.9s, 
+        filter 0.9s,
+        border 0.9s
+}
+.cave-grid:hover,
+.mound-grid:hover {
+    background: url("https://iili.io/f03hhu4.md.png") repeat center center, linear-gradient(to right, #5B311A, #3B2011, #7E4425, #3B2011, #5B311A); !important;
+	border: solid 1px #623925 !important;
+	border-radius: 5px !important
+    transform: scale(1.1);
+    filter: drop-shadow(2px 3px 3px #623925);
+    transform: scale(1.1);
+}
+.feature {
+	background: rgb(113,78,54) !important;
+	color: #3e2913 !important;
+	border: none !important;
+	border-radius: 0px !important
+}
+.feature,
+div.left {
+	background: rgb(113,78,54);
+    box-shadow: none !important;
+	border: solid 1px #3e2916 !important;
+	border-radius: 5px !important
+}
+.feature,
+div.left h3 {
+    	color: #3e2916 !important;
+}
+.table .left {
+	background: rgb(79,59,37);
+}
+.feature h3 {
+    color: #3e2916 !important;
+}
+input,
+select,
+textarea {
+	background: rgb(245,226,192) !important;
+	border: none !important;
+	border-radius: 10px !important;
+	color: #3e2916 !important;
+	box-shadow: none !important;
+	text-shadow: none !important
+}
+a:link,
+a:visited {
+	color: #ecccbb !important;
+	transition: 0.8s;
+}
+a:hover {
+	color: #d89a6f !important;
+	transition: 0.8s;
+}
+.boxcontainer2 {
+	background: url('https://file.garden/abCIqWhSLFoLY_N2/imageedit_4_3987033271.png');
+	height: 370px;
+	padding: 20px;
+    margin: -16px;
+    width: 700px;
+	justify-content: center;
+    display: flex;
+}
+.box1 {
+	float: left;
+	background: rgb(0,0,0,0.0);
+	color: #291913;
+    text-align: justify;
+	padding: 10px;
+	border: none !important;
+    box-shadow: none !important;
+	border-radius: 5px;
+	margin: 30px;
+	height: 320px;
+	width: 50%;
+	overflow: auto
+}
+.box2 {
+	float: left;
+	background: rgb(0,0,0,0.0);
+	color: #291913;
+    text-align: justify;
+	padding: 10px;
+	border: none !important;
+    box-shadow: none !important;
+	border-radius: 5px;
+	margin: 30px;
+	height: 3200px;
+	width: 50%;
+	overflow: auto
+}
+::-webkit-scrollbar {
+	width: 8px
+}
+::-webkit-scrollbar-track {
+	background: rgb(215,180,156);
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(87, 59, 43);
+	border-radius: 0px;
+}
+div#lion_image {
+	border-radius: 15px !important;
+    opacity: 0.9;
+	overflow: hidden;
+    border: solid 1px #8C5F45;
+    box-shadow: 0px 0px 15px #c8957f;
+    transition: 0.9s;
+	margin-top: 16px;
+	margin-left: -20px;
+	position: relative; left:25px;
+	transform: scale(1, 1) !important;
+}
+div#lion_image:hover {
+    transform: scale(1.1) !important;
+    transition: 0.9s;
+    opacity: 1;
+    box-shadow: 0px 0px 8px #e6c99c;
+}
+table#about > tbody > tr.right {
+	display: inline-flex;
+	flex-direction: row-reverse;
+	position: relative;
+}
+@media only screen and (max-width: 1365px) and (min-width: 1200px) { 
+div#lion_image {	
+	position: relative; left:26px;}
+}
+table#player img {
+	border-radius: 15px !important;
+    opacity: 0.9;
+	overflow: hidden
+    border: none;
+    box-shadow: none;
+    margin-left: -50px;
+}
+.right .right > img {
+	position: relative; left:-10px;
+}
+div.container.main > div:nth-child(1) > nav > div.navbar-header > a > img {
+    content: url('https://file.garden/abCIqWhSLFoLY_N2/Untitled%20design%20(23).png');
+    opacity: 1;
+	transition: 1s !important;
+}
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img:hover {
+	content: url('https://file.garden/abCIqWhSLFoLY_N2/Untitled%20design%20(23).png');
+	opacity: 1;
+    transform: scale(1.1);
+	transition: 1s !important;
+}
+/* CAVE CODE BY FELID #114852 */
+#fraOrganizationBlock {
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-rows: auto auto auto;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    position: relative;
+}
+#fraOrganizationBlock > div:nth-child(1) > a > div {
+    width: 150px;
+    height: 110px;
+    color: #ECD7CB;
+    padding: 10px;
+    margin: 10px;
+}
+#fraOrganizationBlock > div:nth-child(2) > div, #fraOrganizationBlock > div:nth-child(2) > a > div {
+    width: 150px;
+    height: 110px;
+    color: #ECD7CB;
+    padding: 9px;
+    margin: 10px;
+}
+#fraOrganizationBlock > div:nth-child(3) > a > div {
+    width: 150px;
+    height: 110px;
+    color: #ECD7CB;
+    padding: 10px;
+    margin: 10px;
+}
+.cave-grid {
+    transition: 0.2s;
+}
+.cave-grid:hover {
+    transform: scale(1.05);
+}
+#pride th {
+    background: linear-gradient(to right, #7E4425, #5B311A, #3B2011) !important;
+    width: 1000px;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    font-size: 15px;
+}
+#fraCaveList > table {
+    height: 40px !important;
+    overflow: hidden !important;
+    transition: 0.2s; 
+    display: block;
+}
+#pride:nth-child(7) {
+    display: none;
+}
+.mound-grid {
+    display: none;
+}
+#fraCaveList {
+    grid-area: 1 / 2 / 4 / 3;
+}
+img[src$="//static.lioden.com/images/layout/unsortedlionsbanner.png"] {
+    content: url('https://file.garden/abCIqWhSLFoLY_N2/horse1.png') !important;
+    width: 50px;
+}
+img[src$="//static.lioden.com/images/layout/nestingbanner.png"] {
+    content: url('https://file.garden/abCIqWhSLFoLY_N2/eagle1.png') !important;
+    width: 50px;
+}
+img[src$="//static.lioden.com/images/layout/prideoverviewbanner.png"] {
+    content: url('https://file.garden/abCIqWhSLFoLY_N2/horse2.png') !important;
+    width: 50px;
+}
+a[href$="524591"]>div.cave-grid>img {
+	content: url('https://file.garden/abCIqWhSLFoLY_N2/Untitled%20design%20(18).png') !important
+}
+a[href$="482968"]>div.cave-grid>img {
+	content: url('https://file.garden/abCIqWhSLFoLY_N2/Untitled%20design%20(19).png') !important
+}
+a[href$="256"]>div.cave-grid>img {
+	content: url('https://file.garden/abCIqWhSLFoLY_N2/Untitled%20design%20(20).png') !important
+}
+a[href$="508110"]>div.cave-grid>img {
+	content: url('https://file.garden/abCIqWhSLFoLY_N2/Untitled%20design%20(21).png') !important
+}
+a[href$="526510"]>div.cave-grid>img {
+	content: url('https://file.garden/abCIqWhSLFoLY_N2/Untitled%20design%20(22).png') !important
+}
+a[href$="543421"]>div.cave-grid>img {
+	content: url('https://file.garden/abCIqWhSLFoLY_N2/Untitled%20design%20(32).png') !important
+}
+@media only screen and (max-width: 767px) {
+        .container.main .hidden-xs {
+            display: block !important;
+        }
+}
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+	display: block !important;
+}
+@media only screen and (min-width: 1200px) {
+		div.quote {
+			width: 790px;
+		}
+	}
+img[src$="iconFB.png"] {
+        content: url("https://file.garden/abCIqWhSLFoLY_N2/deer1.png");
+        filter: brightness(100%) opacity(60%);
+        transition: 0.5s !important;
+        height: 55px;
+        width: auto !important
+}
+     img[src$="iconFB.png"]:hover,
+a[href="https://www.facebook.com/liodengame/"]:hover img,
+a[href="https://www.facebook.com/liodengame/"]:active img,
+a[href="https://www.facebook.com/liodengame/"]:focus img {
+        transform: scale(1.1);
+        filter: brightness(100%) opacity(90%)
+        drop-shadow(0px 0px 2px #e6d3ae);
+}
+img[src$="iconTwit.png"] {
+        content: url("https://file.garden/abCIqWhSLFoLY_N2/guilttrip.png");
+        filter: brightness(100%) opacity(60%);
+        transition: 0.5s !important;
+        height: 55px;
+        width: auto !important
+}
+     img[src$="iconTwit.png"]:hover,
+a[href="https://x.com/liodengame"]:hover img,
+a[href="https://x.com/liodengame"]:active img,
+a[href="https://x.com/liodengame"]:focus img {
+        transform: scale(1.1);
+        filter: brightness(100%) opacity(90%)
+        drop-shadow(0px 0px 2px #e6d3ae) !important;
+}
+ img[src$="iconInsta.png"] {
+        content: url("https://file.garden/abCIqWhSLFoLY_N2/deer2.png");
+        filter: brightness(100%) opacity(60%);
+        transition: 0.5s !important;
+        height: 55px;
+        width: auto !important
+}
+     img[src$="iconInsta.png"]:hover,
+a[href="https://instagram.com/liodenofficial"]:hover img,
+a[href="https://instagram.com/liodenofficial"]:active img,
+a[href="https://instagram.com/liodenofficial"]:focus img {
+         transform: scale(1.1);
+         filter: brightness(100%) opacity(90%)
+        drop-shadow(0px 0px 2px #e6d3ae);
+}
+img[src$="gold.png"] {
+    content:url('https://i.postimg.cc/5yjXHJY2/Antler-broken.png')!important;
+    width:22px!important;
+}
+img[src$="silver.png"] {
+    content:url('https://static.wikia.nocookie.net/wolvden/images/d/d4/Goldenpoppy.png/')!important;
+    width:22px!important;
+}
+div.col-md-3.col-sm-6.col-xs-6.mb-2.dynastylist {
+width: 20%;}
+img[src$="den_ancestors.png"] {
+content: url('https://iili.io/3poG1wl.png');
+width: 2 !important;
+height: 2px !important;
+} 
+img[src$="ancestorsfem.png"] {
+content: url('https://iili.io/3poG1wl.png');
+width: 2 !important;
+height: 2px !important;
+}
+img[src$="den_achievements.png"] {
+content: url('https://iili.io/3poG1wl.png');
+width: 2 !important;
+height: 2px !important;
+}
+img[src$="den_showcase.png"] {
+content: url('https://iili.io/3poG1wl.png');
+width: 2 !important;
+height: 2px !important;
+}
+img[src$="den_beetlebook.png"] {
+content: url('https://iili.io/3poG1wl.png');
+width: 2 !important;
+height: 2px !important;
+background:none!important;
+}
+div.floatright > small {
+    display:none;
+}
+    hr {
+display:none;
+}
+img[src$="icon_den_wishlist.png"] {
+    display: none;
+}
+img[src$="bugbox.png"] {
+    display: none;
+}
+img[src$="icon_den_friend.png"] {
+    display: none;
+}
+img[src$="icon_den_message.png"] {
+    display: none;
+}
+img[src$="icon_den_gift.png"] {
+    display: none;
+}
+img[src$="icon_den_trade.png"] {
+    display: none;
+}
+img[src$="icon_den_viewtrade.png"] {
+    display: none;
+}
+img[src$="icon_den_block.png"] {
+    display: none;
+}
+body > div.container.main > div > div.col-md-9.col-xs-12 > center {
+flex-wrap: nowrap; 
+justify-content: space-between; 
+}
+.dynastylist {
+flex: 1 1 auto;
+max-width: 20%; 
+box-sizing: border-box; 
+}
+.dynastylist img {
+border-radius: 0px !important;
+}
+.dynastylist h3 {
+font-size: 13px !important;
+margin-bottom: -20px!important;
+}
+input#btnToggleSidebarChat {
+    background: rgb(209, 175, 140) !important;
+	border: none !important;
+	border-radius: 5px !important;
+    color: #533b2b !important;
+}
+#commentBox {
+    background: rgba(209, 175, 140,1.0) !important;
+    color: #4F3727 !important;
+    border: 1px solid #543221;
+    height: 40px !important;
+    transition: 0.8s;
+}
+#commentBox:hover {
+    height: 250px !important;
+}
+div.comment:nth-child(even) {
+    background: rgba(214, 181, 144,0.75) !important;
+}
+div.comment:nth-child(odd) {
+    background: rgba(153, 108, 76,0.75) !important;
+}
+div#makeComment {
+background: #4F3727 !important;
+    border: 1px solid #3c2a1e;
+    border-radius: 0px 0px 5px 5px;
+}
+input#comment {
+    background: rgb(215,183,155)  !important;
+}
+input#postComment {
+    background: #caab84 !important;
+}
+small.text-muted {
+    color: rgba(79, 55, 39,0.8);
+}
+input[type="button"].bad {
+    background: #d9ba8d;
+    color: #a4875c;
+    text-shadow: none;
+}
+#commentBox::before {
+    content: "Guest Book";
+    background: url("https://iili.io/f03hhu4.md.png") repeat center center, linear-gradient(to right, #5B311A, #3B2011, #7E4425, #3B2011, #5B311A); !important;
+    color: #d9ba8d;
+    font-size: 18px;
+    font-family: "Sancreek", serif;
+    position: sticky;
+    width: 100%;
+    height: 40px;
+    display: block;
+    padding-top: 7px;
+    top: 0px;
+}
